@@ -1,0 +1,47 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: coral;
+    font-family:  Helvetica, Arial, sans-serif
+}
+
+.container{
+    background-color: white;
+    padding: 60px;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px gray;
+}
+
+#inp_email, #inp_senha{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container input[type='button']{
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+} 
+
+
+.container input[type='button']:hover{
+    background-color: gray;
+}
+
+.container label{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
